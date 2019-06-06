@@ -1,0 +1,10 @@
+Package: rootactions-servicemenu
+Version: 2.9.2-1big1
+Depends: bigsudo, perl, dolphin
+Architecture: all
+Maintainer: Bruno Goncalves <www.biglinux.com.br>
+Section: admin
+Priority: optional
+Installed-Size:84
+Description: Root Actions Service Menu from https://store.kde.org/p/998469/
+
