@@ -1,5 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-f7575f108e7a13d78a9190f0a5f41852  DEBIAN/control
-d484f2cd40bdd0e9c926db4cadc711c0  usr/bin/rootactions-servicemenu.pl
-24bdce1086f6f75db2e7799cbd835a4a  usr/share/kservices5/ServiceMenus/10-rootactionsfolders.desktop
-2b422cddd129723af436e8221d93d9e6  usr/share/kservices5/ServiceMenus/11-rootactionsfiles.desktop
