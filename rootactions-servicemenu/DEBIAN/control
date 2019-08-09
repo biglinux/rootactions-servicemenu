@@ -5,6 +5,6 @@ Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.br>
 Section: admin
 Priority: optional
-Installed-Size:248
+Installed-Size:84
 Description: Root Actions Service Menu from https://store.kde.org/p/998469/
 
