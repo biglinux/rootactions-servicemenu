@@ -921,8 +921,8 @@ if ( $#ARGV lt 0 ) {
 &get_kde_path ;
 
 # Test for the working method to get root access on the host 
-if ( `which kdesudo` ) {
-	$SUCOMMAND = "$KDEBINPATH"."kdesudo -d --noignorebutton --"}
+if ( `which pkexec` ) {
+	$SUCOMMAND = "$KDEBINPATH"."pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY"}
 elsif ( `which kdesu` ) {
 	$SUCOMMAND = "$KDEBINPATH"."kdesu -d -c"}
 elsif ( `which xdg-su` ) {
