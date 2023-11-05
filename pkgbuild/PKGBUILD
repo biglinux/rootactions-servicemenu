@@ -1,0 +1,22 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=rootactions-servicemenu-biglinux
+pkgver=2.9.2_big
+pkgrel=1
+arch=('any')
+license=('GPL')
+depends=('bigsudo')
+url="https://github.com/biglinux/rootactions-servicemenu"
+pkgdesc="Root Actions Service Menu derived from https://store.kde.org/p/998469/"
+source=("git+https://github.com/biglinux/rootactions-servicemenu.git")
+md5sums=(SKIP)
+conflicts=('kde-servicemenus-rootactions')
+provides=('kde-servicemenus-rootactions')
+
+
+package() {
+    mkdir -p "${pkgdir}/usr"
+    cp -r "${srcdir}/rootactions-servicemenu/rootactions-servicemenu/usr/" "${pkgdir}/"
+}
+
+
