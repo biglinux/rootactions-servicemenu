@@ -4,6 +4,7 @@ Version=2.9.1
 Encoding=UTF-8
 Icon=kgpg
 Actions=OpenInFilemanager;
+MimeType=all/allfiles;inode/directory;
 ServiceTypes=KonqPopupMenu/Plugin,inode/directory,inode/directory-locked
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=&Root Actions
